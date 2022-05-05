@@ -32,7 +32,7 @@ _Note: no further packages are required beyond the python built-in modules_
 ### Exectuting unit tests
 
 ```
-$ python card-deck-unittest
+$ python test_card-deck.py
 
 Ran 9 tests in 0.004s
 
@@ -41,7 +41,7 @@ OK
 The unit tests can be run with verbose flag, to display more detailed information regarding the tests run.
 
 ```
-$ python card-deck-unittest -v
+$ python test_card_deck.py -v
 
 test_init (__main__.CardTests)
 each card has a suit & value ... ok
