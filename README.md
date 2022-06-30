@@ -4,7 +4,7 @@ Comprehensive unit test script, testing methods relating to a deck of cards impl
 
 ## Description
 
-The primary purpose of this project is to demonstrate ability to write, understand and execute unit tests. The unit tests are based on two classes and their associated methods, intended to represent a deck of cards. An individual card is represented as an instance of the Card class, while the Deck class has a list attribute, which holds each of the 52 card objects.
+The primary purpose of this project is to demonstrate ability to write, understand and execute unit tests. The unit tests are based on two classes and their associated methods, intended to represent a deck of cards. An individual card is represented as an instance of the Card class, while the Deck class has a _cards_ attribute, which holds each of the 52 card objects in a list.
 
 Each of the methods contained within these two classes are tested in the unit tests.
 
@@ -17,14 +17,9 @@ To clone and run this app on your machine, you'll need [Git](https://git-scm.com
 ### Installation
 
 
-1. Fork and clone this repository
+Fork and clone this repository
 ```
 $ git clone https://github.com/mhoward91/card-deck-unittest.git
-```
-
-2. Change directory to this repository
-```
-$ cd card-deck-unittest
 ```
 
 _Note: no further packages are required beyond the python built-in modules_
